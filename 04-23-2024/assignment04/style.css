@@ -41,7 +41,7 @@ main {
 }
 
 .education-content {
-    margin: 10px;
+    margin: 15px;
 }
 
 .degree-header {
@@ -62,6 +62,44 @@ main {
 .work-color {
     background-color: gray;
 }
+
+.work-header {
+    margin: 0 35px 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-title {
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+
+.date {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.sub-category-title {
+    font-size: 1.125em;
+    color: orange;
+    margin: 0 35px 0 35px;
+    padding: 10px 0;
+}
+
+.border {
+    border-bottom: 3px solid orange;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+
 
 .hobbies-container {
     border: 1px solid purple;
