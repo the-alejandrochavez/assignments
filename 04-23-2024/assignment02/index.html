@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="test.php" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" placeholder="Enter first name" required>
+        <br>
+        <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" placeholder="Enter last name" required>
+        <br>
+        <br>
+        <label for="email-address">Email Address:</label>
+        <input type="email" name="email-address" placeholder="email@example.com" required>
+        <br>
+        <br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" minlength="6" maxlength="18" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br>
+        <br>
+        <label for="gender">Select Gender:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for="prog-lang">Select one or many languages that you worked with:</label>
+        <br>
+        <input type="checkbox" name="prog-lang" id="javascript">
+        <label for="javascript">Javascript</label>
+        <br>
+        <input type="checkbox" name="prog-lang" id="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="checkbox" name="prog-lang" id="c/c++">
+        <label for="c/c++">C</label>
+        <br>
+        <input type="checkbox" name="prog-lang" id="java">
+        <label for="java">Java</label>
+        <br>
+        <br>
+        <label for="country">Where are you from:</label>
+        <select name="country">
+            <option value="" disabled selected>Select an option</option>
+            <option value="USA">USA</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br>
+        <br>
+        <label for="image-file">Upload image for profile picture:</label>
+        <input type="file">
+        <br>
+        <br>
+        <label for="comments">Anything else about you we should know:</label>
+        <br>
+        <textarea name="comments" cols="50" rows="5" placeholder="Enter text here"></textarea>
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
