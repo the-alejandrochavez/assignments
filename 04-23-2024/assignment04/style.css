@@ -41,7 +41,7 @@ main {
 }
 
 .education-content {
-    margin: 15px;
+    margin: 35px;
 }
 
 .degree-header {
@@ -72,6 +72,7 @@ main {
 
 .category-title {
     font-size: 1.25em;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -99,8 +100,6 @@ li {
     padding-bottom: 10px;
 }
 
-
-
 .hobbies-container {
     border: 1px solid purple;
     margin-bottom: 20px;
@@ -108,4 +107,15 @@ li {
 
 .hobbies-color {
     background-color: purple;
+}
+
+.grid-group {
+    margin: 15px 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.hobbies-list {
+    padding-left: 15px;
 }
