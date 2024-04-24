@@ -12,8 +12,7 @@ main {
 }
 
 .about-me-header {
-    font-size: 1.4em;
-    font-weight: 100;
+    font-size: 1.5em;
     border-bottom: 2px dashed black;
     padding: 10px;
     margin-bottom: 0;
@@ -22,4 +21,53 @@ main {
 .about-me-content {
     line-height: 1.5em;
     margin: 20px;
+}
+
+.categories-about-me {
+    font-size: 1.5em;
+    margin-top: 0;
+    padding: 3px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.education-container {
+    border: 1px solid plum;
+    margin-bottom: 20px;
+}
+
+.education-color {
+    background-color: plum;
+}
+
+.education-content {
+    margin: 10px;
+}
+
+.degree-header {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.sub-text {
+    margin: 5px 10px;
+    font-weight: lighter;
+}
+
+.work-container {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.work-color {
+    background-color: gray;
+}
+
+.hobbies-container {
+    border: 1px solid purple;
+    margin-bottom: 20px;
+}
+
+.hobbies-color {
+    background-color: purple;
 }
