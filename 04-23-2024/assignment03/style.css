@@ -1,0 +1,20 @@
+body {
+    background-color: red;
+    color: white;
+}
+
+h1,
+h3 {
+    color: beige;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
