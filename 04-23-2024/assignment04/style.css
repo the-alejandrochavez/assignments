@@ -77,7 +77,7 @@ main {
 }
 
 .date {
-    margin-bottom: 0;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -94,6 +94,7 @@ main {
 
 ul {
     padding-left: 50px;
+    margin-right: 35px;
 }
 
 li {
@@ -118,4 +119,35 @@ li {
 
 .hobbies-list {
     padding-left: 15px;
+}
+
+@media (max-width: 575px) {
+    main {
+        margin: 0 20px;
+    }
+
+    .about-me-header,
+    .categories-about-me,
+    .degree-header,
+    .category-title,
+    .sub-category-title {
+        font-size: 1.25em;
+    }
+
+    .about-me-content,
+    .sub-text,
+    .date,
+    .hobbies-list li {
+        font-size: 0.9em;
+    }
+
+    .grid-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 575px) {
+    main {
+        margin: 0 40px;
+    }
 }
