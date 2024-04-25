@@ -132,7 +132,38 @@ li {
     padding-left: 15px;
 }
 
-@media (max-width: 575px) {
+.grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-container {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.project-color {
+    background-color: red;
+}
+
+.contact-container {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.contact-color {
+    background-color: black;
+}
+
+.contact-container>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
+@media (max-width: 590px) {
     .profile-image {
         height: 150px;
         border-radius: 50px;
@@ -160,9 +191,13 @@ li {
     .grid-group {
         grid-template-columns: 1fr;
     }
+
+    .grid-column {
+        grid-template-columns: 1fr;
+    }
 }
 
-@media (min-width: 575px) {
+@media (min-width: 590px) {
     main {
         margin: 0 40px;
     }
