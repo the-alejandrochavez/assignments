@@ -5,6 +5,17 @@
 h1 {
     text-align: center;
     padding: 50px 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    height: 200px;
+    border-radius: 100%;
 }
 
 main {
@@ -122,6 +133,11 @@ li {
 }
 
 @media (max-width: 575px) {
+    .profile-image {
+        height: 150px;
+        border-radius: 50px;
+    }
+
     main {
         margin: 0 20px;
     }
