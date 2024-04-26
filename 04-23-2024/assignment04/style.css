@@ -115,7 +115,6 @@ main {
 
 ul {
     padding-left: 50px;
-    /* margin-right: 35px; */
 }
 
 li {
@@ -241,10 +240,36 @@ li {
 
     .grid-group {
         grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .grid-column {
         grid-template-columns: 1fr;
+    }
+
+    .toggle-checkbox-education:checked~div {
+        max-height: fit-content;
+        border: 1px solid plum;
+    }
+
+    .toggle-checkbox-work:checked~div {
+        max-height: fit-content;
+        border: 1px solid gray;
+    }
+
+    .toggle-checkbox-hobbies:checked~div {
+        max-height: fit-content;
+        border: 1px solid purple;
+    }
+
+    .toggle-checkbox-project:checked~ul {
+        max-height: fit-content;
+        border: 1px solid red;
+    }
+
+    .toggle-checkbox-contact:checked~ul {
+        max-height: fit-content;
+        border: 1px solid black;
     }
 }
 
